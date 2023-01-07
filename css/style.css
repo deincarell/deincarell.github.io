@@ -2,11 +2,11 @@
 
 :root{
    --blue:#2196F3;
-   --black:#03045e;
+   --darkblue:#03045e;
    --white:#fff;
    --light-bg:#eee;
-   --border-bold:.5rem solid var(--black);
-   --border-light:.2rem solid var(--black);
+   --border-bold:.5rem solid var(--darkblue);
+   --border-light:.2rem solid var(--darkblue);
 }
 
 *{
@@ -15,11 +15,11 @@
    box-sizing: border-box;
    outline: none; border:none;
    text-decoration: none;
-   color:var(--black);
+   color:var(--darkblue);
 }
 
 *::selection{
-   background-color: var(--black);
+   background-color: var(--darkblue);
    color:var(--blue);
 }
 
@@ -97,7 +97,7 @@ section{
 }
 
 .btn:hover{
-   background-color: var(--black);
+   background-color: var(--darkblue);
    color:var(--white);
 }
 
@@ -161,7 +161,7 @@ section{
    width: 5rem;
    font-size: 2.5rem;
    cursor: pointer;
-   background-color: var(--black);
+   background-color: var(--darkblue);
    color:var(--white);
 }
 
@@ -354,7 +354,7 @@ section{
 }
 
 .services .box-container .box:hover{
-   background-color: var(--black);
+   background-color: var(--darkblue);
 }
 
 .services .box-container .box:hover i{
@@ -436,7 +436,7 @@ section{
    width: 7rem;
    line-height: 7rem;
    color:var(--white);
-   background-color: var(--black);
+   background-color: var(--darkblue);
    margin-bottom: .5rem;
 }
 
@@ -452,7 +452,7 @@ section{
 
 .credit{
    text-align: center;
-   background-color: var(--black);
+   background-color: var(--darkblue);
    padding:3rem;
    font-size: 2rem;
    color:var(--white);
