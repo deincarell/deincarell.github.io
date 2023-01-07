@@ -69,22 +69,6 @@ section{
    border-bottom: var(--border-bold);
 }
 
-.message{
-   position: sticky;
-   top:2rem;
-   max-width: 1200px;
-   margin:0 auto;
-   background-color: var(--blue);
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding:2rem;
-   font-size: 2rem;
-}
-
-.message i{
-   cursor: pointer;
-}
 
 .btn{
    display: inline-block;
@@ -386,35 +370,6 @@ section{
 
 .portfolio .box-container .box span{
    font-size: 1.7rem;
-}
-
-.contact form{
-   max-width: 70rem;
-   margin:0 auto;
-}
-
-.contact form .box{
-   width: 100%;
-   padding:1.4rem;
-   font-size: 2rem;
-   text-transform: none;
-   border:var(--border-light);
-   margin:1rem 0;
-}
-
-.contact form textarea{
-   height: 20rem;
-   resize: none;
-}
-
-.contact form .flex{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
-
-.contact form .flex .box{
-   width: 49%;
 }
 
 .contact .box-container{
